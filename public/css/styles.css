@@ -4,3 +4,164 @@
 *:after {
   box-sizing: border-box;
 }
+
+@media (min-width: 600px) {
+  body {
+    background-image: url('/images/site/small_check.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  #wrapper {
+    max-width: 90%;
+    margin: 15px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 12px;
+    border: solid;
+    border-width: 6px;
+    border-color: rgb(12, 177, 189);
+    box-shadow: 15px rgba(244, 230, 230, 0.2);
+  }
+
+  .siteName {
+    font-size: 2rem;
+    font-weight: 800;
+  }
+
+  .main-sec {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+  }
+
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  background-color: black;
+  color: aliceblue;
+  padding: 12px;
+  margin: 0;
+}
+
+nav ul li {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.siteName {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.siteName a {
+  text-decoration: none;
+  color: black;
+}
+
+#tools a {
+  font-size: 0.9rem;
+  font-weight: 300;
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+}
+
+.hero {
+  margin-bottom: 30px;
+  background-image: url('/images/vehicles/delorean.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+
+}
+
+.hero-sec {
+  background-color: rgba(255, 255, 255, 0.9);
+  margin-left: 10px;
+}
+
+.hero-sec h2 {
+  font-weight: 900;
+  font-size: 25px;
+  color: rgb(6, 178, 209);
+}
+
+.hero-sec h3 {
+  font-weight: 600;
+  font-size: 20px;
+  color: rgb(6, 178, 209);
+}
+
+.hero-button {
+  background-color: rgb(6, 178, 209);
+  border: none;
+  outline: none;
+  font-weight: 700;
+  color: #130000;
+  padding: 12px 24px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.dot-list {
+  list-style-type: disc;
+
+}
+
+.pics-container {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  gap: 20px;
+  justify-content: start;
+}
+
+.pics {
+  text-align: center;
+}
+
+.pics a:last-child {
+  display: block;
+  margin-top: 8px;
+  color: #062fb5;
+  font-weight: 600;
+}
+
+.img-bg {
+  background-color: #2563eb;
+  padding: 8px 50px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pics img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  background-color: transparent;
+}
+
+.pics a:last-child {
+  display: block;
+  margin-top: 8px;
+  color: #062fb5;
+  font-weight: 600;
+  text-decoration: none;
+}
