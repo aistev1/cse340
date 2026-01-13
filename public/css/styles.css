@@ -25,7 +25,8 @@
     border: solid;
     border-width: 6px;
     border-color: rgb(12, 177, 189);
-    box-shadow: 15px rgba(244, 230, 230, 0.2);
+    /* box-shadow: 15px rgba(244, 230, 230, 0.2); */
+    box-shadow: 0 0 15px rgba(244, 230, 230, 0.2);
   }
 
   .siteName {
