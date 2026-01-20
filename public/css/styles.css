@@ -65,6 +65,18 @@ nav ul li {
   font-size: 1rem;
   font-weight: 600;
 }
+nav ul a {
+  font-size: 1rem;
+  font-weight: 600;
+  color: aliceblue;
+  text-decoration: none;
+}
+nav ul a:hover {
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgb(51, 247, 74);
+  text-decoration: none;
+}
 
 .siteName {
   font-size: 1.5rem;
